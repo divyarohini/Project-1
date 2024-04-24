@@ -1,0 +1,108 @@
+<style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: rgb(245, 224, 227);
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    z-index: 1;
+}
+.d{
+    margin: 10px;
+    color: rgb(158, 9, 158);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.inputs{
+    border:none;
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    margin: 10px;
+}
+a img{
+    cursor: pointer;
+    border-radius: 50px;  
+    margin-right: 200px; 
+    
+}
+.cart-logo{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+ul li{
+    display: inline;
+    text-align: left;
+ }
+ ul li a{
+     color: white;
+     text-decoration: none;
+     margin:10px;
+     padding: 10px;
+     justify-content: space-between;
+ }
+ select{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+ }
+ .scroll{
+    background-color:rgb(245, 224, 227);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .scroll img{
+    padding: 10px;
+    border: 2px solid rgb(158, 9, 158);
+    border-radius: 5px;
+ }
+ 
+#products{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+.product{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color:rgb(158, 9, 158);;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+button:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+    </style>
